@@ -1,0 +1,29 @@
+{
+  "name": "card-ricci",
+  "version": "1.0.0",
+  "description": "about me card",
+  "main": "index.js",
+  "bin": {
+    "ricci": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicciPierre/card-ricci.git"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "Pierre Ricci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicciPierre/card-ricci/issues"
+  },
+  "homepage": "https://github.com/RicciPierre/card-ricci#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.0"
+  }
+}
