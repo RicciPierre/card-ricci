@@ -5,7 +5,7 @@ const boxen = require("boxen");
 const terminalImage = require('terminal-image');
  
 const data = {
-    name: chalk.black.bgMagentaBright("                            Pierre Ricci                            "),
+    name: chalk.black.bgMagentaBright("Pierre Ricci"),
     work: chalk.white("Web Dev Junior at BeCode.org"),
     npm: chalk.gray("https://npmjs.com/") + chalk.magenta("~ricci_pierre"),
     github: chalk.gray("https://github.com/") + chalk.magenta("RicciPierre"),
@@ -37,6 +37,7 @@ const EMPTYLINE = "";
                     `${data.labelCard} ${data.npx}`,
                 ].join(NEWLINE),
                 {
+                    align: 'center',
                     padding: 2,
                     margin: 3,
                     borderStyle: "doubleSingle",
