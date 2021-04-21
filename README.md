@@ -5,5 +5,5 @@
 Via npx:
 
 ```
-npx ricci
+npx card-ricci
 ```
