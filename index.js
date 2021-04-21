@@ -1,4 +1,4 @@
-const chalk = require("chalk");
+const chalk = require ("chalk");
 const boxen = require("boxen");
 
 const data = {
@@ -8,7 +8,6 @@ const data = {
     github: chalk.gray("https://github.com/") + chalk.magenta("RicciPierre"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.magenta("pierre-ricci-15b353202"),
     npx: chalk.magenta("npx") + " " + chalk.white("ricci"),
-    labelWork: chalk.white.bold("Work:"),
     labelNpm: chalk.white.bold("npm:"),
     labelGitHub: chalk.white.bold("GitHub:"),
     labelLinkedIn: chalk.white.bold("LinkedIn:"),
@@ -24,7 +23,7 @@ console.log(
             [
                 `${data.name}`,
                 EMPTYLINE,
-                `${data.labelWork} ${data.work}`,
+                `${data.work}`,
                 EMPTYLINE,
                 `${data.labelNpm} ${data.npm}`,
                 `${data.labelGitHub} ${data.github}`,
